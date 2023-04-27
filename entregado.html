@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ARTISAN </title>
+<link rel="shortcut icon " type="imagen/x-icon" href="img/burguer.ico">
+
+</head>
+<body>
+<section class="orden">
+ <div class="frase">
+    <p>Pedido en Proceso</p>
+  </div>
+
+    <div class="image" ><img src="img/carrito.png" alt="Artisan"></div>
+ <div><center>
+<h6 >Derechos resevados de Artisan 2023</h6></center></div>
+</section>
+<style>
+	h6{
+  margin-top: 10px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+ .image {
+  max-width: 100%;
+  height: auto;
+  animation: move 5s infinite;
+}
+
+@keyframes move {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(1250px); }
+  100% { transform: translateX(0); }
+}
+
+.frase {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: white;
+  background-color: skyblue;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+</style>
+</body>
+</html>

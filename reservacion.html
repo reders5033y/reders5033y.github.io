@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ARTISAN </title>
+<link rel="shortcut icon " type="imagen/x-icon" href="img/burguer.ico">
+</head>
+<body>
+
+<h2 class="ti">Reservacion</h2>
+
+<form action="elegirnos.html" method="POST">
+  
+  <div>
+    <label for="name">Nombre completo:</label>
+    <input type="text"  name="nombrw" placeholder="Nombre" required>
+  </div>
+
+  <div>
+    <label for="email">Correo electrónico:</label>
+    <input type="email"  name="email" placeholder="email" required></div>
+
+  <div>
+    <label for="phone">Número de teléfono:</label>
+    <input type="tel"  name="tel" placeholder="tel" required></div>
+
+  <div>
+    <label for="date">Fecha de reserva:</label>
+    <input type="date"  name="date" placeholder="date" required></div>
+
+  <div>
+    <label for="time">Hora de reserva:</label>
+    <input type="time" name="time" placeholder="date" required></div>
+
+  <div>
+    <label for="party-size">Número de personas:</label>
+    <input type="number"  name="number" placeholder="number" required></div>
+
+  <div>
+    <label for="comments">Comentarios adicionales:</label>
+    <textarea id="comments" name="comments"></textarea></div>
+
+  <div>
+    <input type="submit" value="Enviar solicitud"></div>
+
+</form>
+
+<div class="atras">
+   <a href="index.html"> <button class="atra">Atrás</button></div></a>
+
+<div><center>
+<h6 >Derechos resevados de  Artisan 2023</h6></center></div>
+<style>
+  h6{
+  margin-top: 10px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+    body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0
+		}
+    .ti {
+			background-color: #007bff;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+		}
+     h2 {
+			margin-top: 0;
+			font-size: 40px;
+			font-weight: bold;
+			text-transform: uppercase;
+      }
+
+      form {
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      input[type="date"],
+      input[type="time"],
+      input[type="number"],
+      textarea {
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
+
+      input[type="submit"] {
+        background-color: #2196F3;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #0D47A1;
+      }
+     .atras {
+  position:fixed;bottom ;
+  bottom: 20px;
+  right: 20px;
+}
+
+.atra {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.atra:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+</style>
+</body>
+</html>
